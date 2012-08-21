@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIView+DamageHUD.h"
 
 @interface SCZViewController : UIViewController
+{
+    UITapGestureRecognizer *tapRecognizer;
+}
+
+@property (strong, nonatomic) UITapGestureRecognizer *tapRecognizer;
 
 @end

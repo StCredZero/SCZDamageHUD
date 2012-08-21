@@ -15,6 +15,7 @@
 		18D4F8C215E3300900ECD371 /* SCZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D4F8C115E3300900ECD371 /* SCZAppDelegate.m */; };
 		18D4F8C515E3300900ECD371 /* SCZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D4F8C415E3300900ECD371 /* SCZViewController.m */; };
 		18D4F8C815E3300900ECD371 /* SCZViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D4F8C615E3300900ECD371 /* SCZViewController.xib */; };
+		18D4F8D015E3304800ECD371 /* UIView+DamageHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D4F8CF15E3304800ECD371 /* UIView+DamageHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		18D4F8C315E3300900ECD371 /* SCZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCZViewController.h; sourceTree = "<group>"; };
 		18D4F8C415E3300900ECD371 /* SCZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCZViewController.m; sourceTree = "<group>"; };
 		18D4F8C715E3300900ECD371 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SCZViewController.xib; sourceTree = "<group>"; };
+		18D4F8CE15E3304800ECD371 /* UIView+DamageHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DamageHUD.h"; sourceTree = "<group>"; };
+		18D4F8CF15E3304800ECD371 /* UIView+DamageHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DamageHUD.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 		18D4F8B715E3300900ECD371 /* SCZDamageHUD */ = {
 			isa = PBXGroup;
 			children = (
+				18D4F8CE15E3304800ECD371 /* UIView+DamageHUD.h */,
+				18D4F8CF15E3304800ECD371 /* UIView+DamageHUD.m */,
 				18D4F8C015E3300900ECD371 /* SCZAppDelegate.h */,
 				18D4F8C115E3300900ECD371 /* SCZAppDelegate.m */,
 				18D4F8C315E3300900ECD371 /* SCZViewController.h */,
@@ -165,6 +170,7 @@
 				18D4F8BE15E3300900ECD371 /* main.m in Sources */,
 				18D4F8C215E3300900ECD371 /* SCZAppDelegate.m in Sources */,
 				18D4F8C515E3300900ECD371 /* SCZViewController.m in Sources */,
+				18D4F8D015E3304800ECD371 /* UIView+DamageHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

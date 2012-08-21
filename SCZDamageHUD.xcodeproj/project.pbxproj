@@ -34,6 +34,7 @@
 		18D4F8C715E3300900ECD371 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SCZViewController.xib; sourceTree = "<group>"; };
 		18D4F8CE15E3304800ECD371 /* UIView+DamageHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DamageHUD.h"; sourceTree = "<group>"; };
 		18D4F8CF15E3304800ECD371 /* UIView+DamageHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DamageHUD.m"; sourceTree = "<group>"; };
+		18D4F8D515E336AB00ECD371 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +81,7 @@
 		18D4F8B715E3300900ECD371 /* SCZDamageHUD */ = {
 			isa = PBXGroup;
 			children = (
+				18D4F8D515E336AB00ECD371 /* README.md */,
 				18D4F8CE15E3304800ECD371 /* UIView+DamageHUD.h */,
 				18D4F8CF15E3304800ECD371 /* UIView+DamageHUD.m */,
 				18D4F8C015E3300900ECD371 /* SCZAppDelegate.h */,

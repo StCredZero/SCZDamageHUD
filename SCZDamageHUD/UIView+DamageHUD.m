@@ -40,27 +40,7 @@
                  hudView.center = endPoint;
                  hudView.alpha = 0.0;
              }
-             moveVector:moveVector];
-}
-
-- (void) showDamageHUD:(UIView*)hudView
-              duration:(NSTimeInterval)duration
-                 delay:(NSTimeInterval)delay
-               options:(UIViewAnimationOptions)options
-            animations:(void (^)(void))animations
-            moveVector:(CGPoint)moveVector
-{
-    [self showDamageHUD:hudView
-               duration:duration
-                  delay:delay
-                options:options
-             animations:animations
-             completion:^ (BOOL finished) {
-                 if (finished) {
-                     [hudView removeFromSuperview];
-                 }
-             }
-             moveVector:moveVector];
+             completion:nil];
 }
 
 - (void) showDamageHUD:(UIView*)hudView
@@ -69,7 +49,6 @@
                options:(UIViewAnimationOptions)options
             animations:(void (^)(void))animations
             completion:(void (^)(BOOL))completion
-            moveVector:(CGPoint)moveVector
 {
     hudView.backgroundColor = [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.0];
     hudView.hidden = NO;
@@ -80,7 +59,14 @@
                           delay:delay
                         options:options
                      animations:animations
-                     completion:completion];
+                     completion:^(BOOL finished){
+                         if(completion){
+                             completion(finished);
+                         }
+                         if (finished) {
+                             [hudView removeFromSuperview];
+                         }
+                     }];
 }
 
 @end

@@ -26,15 +26,7 @@
                  delay:(NSTimeInterval)delay
                options:(UIViewAnimationOptions)options
             animations:(void (^)(void))animations
-            moveVector:(CGPoint)moveVector;
-
-- (void) showDamageHUD:(UIView*)hudView
-              duration:(NSTimeInterval)duration
-                 delay:(NSTimeInterval)delay
-               options:(UIViewAnimationOptions)options
-            animations:(void (^)(void))animations
-            completion:(void (^)(BOOL))completion
-            moveVector:(CGPoint)moveVector;
+            completion:(void (^)(BOOL))completion;
 
 @end
 
